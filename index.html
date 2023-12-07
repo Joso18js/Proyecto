@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>One Location Costa Rica</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Free HTML Templates" name="keywords" />
+  <meta content="Free HTML Templates" name="description" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- TopBar y Navbar Start -- usando JQuery -->
+  <div class="topbar">
+    <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+  </div>
+  <!-- TopBar y Navbar End -- usando JQuery -->
+
+  <!-- Carousel Start -->
+  <div class="container-fluid p-0">
+    <div id="header-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px">
+              <h4 class="text-white text-uppercase mb-md-3">Tours</h4>
+              <h1 class="display-3 text-white mb-md-4">
+                Descubramos el mundo juntos!
+              </h1>
+              <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Reservar</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px">
+              <h4 class="text-white text-uppercase mb-md-3">Tours</h4>
+              <h1 class="display-3 text-white mb-md-4">
+                Descubramos el mundo juntos!
+              </h1>
+              <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Reservar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+        <div class="btn btn-dark" style="width: 45px; height: 45px">
+          <span class="carousel-control-prev-icon mb-n2"></span>
+        </div>
+      </a>
+      <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+        <div class="btn btn-dark" style="width: 45px; height: 45px">
+          <span class="carousel-control-next-icon mb-n2"></span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Carousel End -->
+
+  <!-- Booking Start -->
+  <div class="container-fluid booking mt-5 pb-5">
+    <div class="container pb-5">
+        <div class="bg-light shadow" style="padding: 30px;">
+            <div class="row align-items-center" style="min-height: 60px;">
+                <div class="col-md-10">
+                    <form target="_blank" action="https://formsubmit.co/joso18js@gmail.com" method="POST">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select id="countriesSelect" name="country" class="custom-select px-4"
+                                        style="height: 47px;"></select>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input name="Depart date" type="text"
+                                            class="form-control p-4 datetimepicker-input" placeholder="Depart Date"
+                                            data-target="#date1" data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input name="Return date" type="text"
+                                            class="form-control p-4 datetimepicker-input" placeholder="Return Date"
+                                            data-target="#date2" data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select name="duration" class="custom-select px-4" style="height: 47px;">
+                                        <option selected>2 Dias</option>
+                                        <option value="1">3 Dias</option>
+                                        <option value="2">4 Dias</option>
+                                        <option value="3">1 Semana</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary btn-block" type="submit"
+                        style="height: 47px; margin-top: -2px;">Enviar</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Booking End -->
+  <!-- Booking End -->
+
+  <!-- About Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-6" style="min-height: 500px">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100" src="img/traveling.jpg" style="object-fit: cover" />
+          </div>
+        </div>
+        <div class="col-lg-6 pt-5 pb-lg-5">
+          <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+              Sobre Nosotros
+            </h6>
+            <h1 class="mb-3">Contamos con viajes dentro y fuera del Pais</h1>
+            <p>
+              Desde Volcanes hasta Cataratas son los destinos mas buscados en
+              Costa Rica y otros paises, donde nosotros te llevamos a vivir la
+              mejor experiencia con una guia profesional y con desayuno
+              incluido hecho por nuestro mejor personal
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <img class="img-fluid" src="img/Arenal.jpg" alt="" />
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="img/Rio celeste.jpg" alt="" />
+              </div>
+            </div>
+            <a href="" class="btn btn-primary mt-1">Reservar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+  <!-- Feature Start -->
+  <div class="container-fluid pb-5">
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+              style="height: 100px; width: 100px">
+              <i class="fa fa-2x fa-money-check-alt text-white"></i>
+            </div>
+            <div class="d-flex flex-column">
+              <h5 class="">Precios Competitivos</h5>
+              <p class="m-0">Ofrecemos paquetes con grandes descuentos</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+              style="height: 100px; width: 100px">
+              <i class="fa fa-2x fa-award text-white"></i>
+            </div>
+            <div class="d-flex flex-column">
+              <h5 class="">Mejor Servicio</h5>
+              <p class="m-0">
+                Contamos con un equipo calificado para ofrecerles una
+                experiencia unica
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+              style="height: 100px; width: 100px">
+              <i class="fa fa-2x fa-globe text-white"></i>
+            </div>
+            <div class="d-flex flex-column">
+              <h5 class="">Cobertura en muchos paises</h5>
+              <p class="m-0">
+                Disponible una gran variedad de destinos maravillosos
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Feature End -->
+
+  <!-- Destination Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Destinos
+        </h6>
+        <h1>Explora tambien fuera del pais</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/destination-1.jpg" alt="" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">United States</h5>
+              <span>100 Ciudades</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/destination-2.jpg" alt="" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">United Kingdom</h5>
+              <span>100 Ciudades</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/destination-3.jpg" alt="" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">Australia</h5>
+              <span>100 Ciudades</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/destination-4.jpg" alt="" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">India</h5>
+              <span>100 Ciudades</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/destination-5.jpg" alt="" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">South Africa</h5>
+              <span>100 Ciudades</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/destination-6.jpg" alt="" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">Indonesia</h5>
+              <span>100 Ciudades</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Destination Start -->
+
+  <!-- Service Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Servicios
+        </h6>
+        <h1>Tours & Servicios</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-item bg-white text-center mb-2 py-5 px-4">
+            <i class="fa fa-2x fa-route mx-auto mb-4"></i>
+            <h5 class="mb-2">Guia</h5>
+            <p class="m-0">
+              Tenemos guias experimentados que facilitaran el Tour
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-item bg-white text-center mb-2 py-5 px-4">
+            <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
+            <h5 class="mb-2">facilidad de reserva</h5>
+            <p class="m-0">A tan solo un click de viajar con nosotros</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-item bg-white text-center mb-2 py-5 px-4">
+            <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
+            <h5 class="mb-2">Reserva de Hotel</h5>
+            <p class="m-0">
+              Te ayudamos a encontrar los mejores hoteles y a su comodidad
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Service End -->
+
+  <!-- Packages Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Paquetes
+        </h6>
+        <h1>Mejores Paquestes de Tour</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/package-1.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3
+                  dias</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2
+                  Personasas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores destinos con nosotros</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.5
+                    <small>(250)</small>
+                  </h6>
+                  <h5 class="m-0">$270</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/package-2.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3
+                  dias</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2
+                  Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores destinos con nosotros</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.5
+                    <small>(250)</small>
+                  </h6>
+                  <h5 class="m-0">$410</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/package-3.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3
+                  dias</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2
+                  Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores destinos con nosotros</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.5
+                    <small>(250)</small>
+                  </h6>
+                  <h5 class="m-0">$450</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/package-4.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>5
+                  dias</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2
+                  Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores destinos con nosotros</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.5
+                    <small>(250)</small>
+                  </h6>
+                  <h5 class="m-0">$850</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/package-5.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>1
+                  semana</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2
+                  Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores destinos con nosotros</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.5
+                    <small>(250)</small>
+                  </h6>
+                  <h5 class="m-0">$300</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/package-6.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>8
+                  dias</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2
+                  Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores destinos con nosotros</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.5
+                    <small>(250)</small>
+                  </h6>
+                  <h5 class="m-0">$675</h5>
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Packages End -->
+
+  <!-- Registration Start -->
+  <div class="container-fluid bg-registration py-5" style="margin: 90px 0">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-7 mb-5 mb-lg-0">
+          <div class="mb-4">
+            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+              Mega Oferta
+            </h6>
+            <h1 class="text-white">
+              <span class="text-primary">30% De Descuento</span> Para BAC
+              CREDOMATIC
+            </h1>
+          </div>
+          <p class="text-white">
+            Tenemos convenio con el BAC, donde tambien podran utilizar sus
+            puntos o millas con nostros para un descuento mucho mayor
+          </p>
+          <ul class="list-inline text-white m-0">
+            <li class="py-2">
+              <i class="fa fa-check text-primary mr-3"></i>Transaccion Rapida
+            </li>
+            <li class="py-2">
+              <i class="fa fa-check text-primary mr-3"></i>Uso de la tarjeta
+              dentro y fuera del Pais
+            </li>
+            <li class="py-2">
+              <i class="fa fa-check text-primary mr-3"></i>Promociones por
+              medio de BAC Promo
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-5">
+          <div class="card border-0">
+            <div class="card-header bg-primary text-center p-4">
+              <h1 class="text-white m-0">Registrese Aqui</h1>
+            </div>
+            <div class="card-body rounded-bottom bg-white p-5">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control p-4" placeholder="Nombre" required="required" />
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control p-4" placeholder="Correo" required="required" />
+                </div>
+                <div class="form-group">
+                  <select class="custom-select px-4" style="height: 47px">
+                    <option selected>Select a destination</option>
+                    <option value="1">United Kingdom</option>
+                    <option value="2">Thailand</option>
+                    <option value="3">Australia</option>
+                    <option value="3">Indonesia</option>
+                  </select>
+                </div>
+                <div>
+                  <button class="btn btn-primary btn-block py-3" type="submit">
+                    Registrarse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Registration End -->
+
+  <!-- Team Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Guias
+        </h6>
+        <h1>Nuestros Guias</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">Elena Estrada</h5>
+              <p class="m-0">United Kingdom</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">Marco Soto</h5>
+              <p class="m-0">Thailand</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">Rosa Alvarado</h5>
+              <p class="m-0">Australia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="img/team-4.jpg" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">Juan Herrera</h5>
+              <p class="m-0">Indonesia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Team End -->
+
+  <!-- Testimonial Start -->
+  <div class="container-fluid py-5">
+    <div class="container py-5">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Testimonios
+        </h6>
+        <h1>Los clientes comentan:</h1>
+      </div>
+      <div class="owl-carousel testimonial-carousel">
+        <div class="text-center pb-4">
+          <img class="img-fluid mx-auto" src="img/testimonial-1.jpg" style="width: 100px; height: 100px" />
+          <div class="testimonial-text bg-white p-4 mt-n5">
+            <p class="mt-5">Fue una experiencia maravillosa.</p>
+            <h5 class="text-truncate">Jesus Duarte</h5>
+            <span>Contador</span>
+          </div>
+        </div>
+        <div class="text-center">
+          <img class="img-fluid mx-auto" src="img/testimonial-2.jpg" style="width: 100px; height: 100px" />
+          <div class="testimonial-text bg-white p-4 mt-n5">
+            <p class="mt-5">Espero volver a viajar con ustedes</p>
+            <h5 class="text-truncate">Sofia Hernandez</h5>
+            <span>Reportera</span>
+          </div>
+        </div>
+        <div class="text-center">
+          <img class="img-fluid mx-auto" src="img/testimonial-3.jpg" style="width: 100px; height: 100px" />
+          <div class="testimonial-text bg-white p-4 mt-n5">
+            <p class="mt-5">
+              Reservando a mi siguiente desitno con los mejores!
+            </p>
+            <h5 class="text-truncate">Jonndher Navarro</h5>
+            <span>Enfermero</span>
+          </div>
+        </div>
+        <div class="text-center">
+          <img class="img-fluid mx-auto" src="img/testimonial-4.jpg" style="width: 100px; height: 100px" />
+          <div class="testimonial-text bg-white p-4 mt-n5">
+            <p class="mt-5">La comida que nos preparan es la mas deliciosa</p>
+            <h5 class="text-truncate">Cristopher Solano</h5>
+            <span>Ingeniero Industrial</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Testimonial End -->
+
+  <!-- Blog Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Blog
+        </h6>
+        <h1>Lo mas reciente de nuestro Blog</h1>
+      </div>
+      <div class="row pb-3">
+        <div class="col-lg-4 col-md-6 mb-4 pb-2">
+          <div class="blog-item">
+            <div class="position-relative">
+              <img class="img-fluid w-100" src="img/blog-1.jpg" alt="" />
+              <div class="blog-date">
+                <h6 class="font-weight-bold mb-n1">01</h6>
+                <small class="text-white text-uppercase">Jan</small>
+              </div>
+            </div>
+            <div class="bg-white p-4">
+              <div class="d-flex mb-2">
+                <a class="text-primary text-uppercase text-decoration-none" href="">Playas</a>
+                <span class="text-primary px-2">|</span>
+                <a class="text-primary text-uppercase text-decoration-none" href="">One Location Costa Rica</a>
+              </div>
+              <a class="h5 m-0 text-decoration-none" href="">Playas con acceso a bar y restaurantes y mas</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 pb-2">
+          <div class="blog-item">
+            <div class="position-relative">
+              <img class="img-fluid w-100" src="img/blog-2.jpg" alt="" />
+              <div class="blog-date">
+                <h6 class="font-weight-bold mb-n1">01</h6>
+                <small class="text-white text-uppercase">Jan</small>
+              </div>
+            </div>
+            <div class="bg-white p-4">
+              <div class="d-flex mb-2">
+                <a class="text-primary text-uppercase text-decoration-none" href="">Lugares Populares</a>
+                <span class="text-primary px-2">|</span>
+                <a class="text-primary text-uppercase text-decoration-none" href="">One Location Costa Rica</a>
+              </div>
+              <a class="h5 m-0 text-decoration-none" href="">Conozca lugares con gran historia y mas visitados por los
+                turistas</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 pb-2">
+          <div class="blog-item">
+            <div class="position-relative">
+              <img class="img-fluid w-100" src="img/blog-3.jpg" alt="" />
+              <div class="blog-date">
+                <h6 class="font-weight-bold mb-n1">01</h6>
+                <small class="text-white text-uppercase">Jan</small>
+              </div>
+            </div>
+            <div class="bg-white p-4">
+              <div class="d-flex mb-2">
+                <a class="text-primary text-uppercase text-decoration-none" href="">Playas</a>
+                <span class="text-primary px-2">|</span>
+                <a class="text-primary text-uppercase text-decoration-none" href="">One Location Costa Rica</a>
+              </div>
+              <a class="h5 m-0 text-decoration-none" href="">Variedad de playas para pasar las mejores vacaciones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Blog End -->
+
+  <!-- footer Start -- usando JQuery -->
+  <div class="footer">
+    <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+  </div>
+  <!-- footer End -- usando JQuery -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+  <!-- Script para cargar países automáticamente al cargar la página -->
+  <script src="./js/countries.js"></script>
+
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+
+  <!--  Script para cargar x y x con un function  -->
+  <script>
+    let toast = "";
+    $(document).ready(function () {
+      // Cargamos el topbar
+      $(".topbar").load("topbar.html");
+      // Cargamos el footer
+      $(".footer").load("footer.html");
+      toast = localStorage.getItem("toast");
+      if (toast == "true") {
+        $("#liveToast").removeClass("hide");
+        $("#liveToast").addClass("show");
+        setTimeout(function () {
+          $("#liveToast").fadeOut(1500);
+          $("#liveToast").removeClass("show");
+          $("#liveToast").removeClass("hide");
+          localStorage.clear();
+        }, 3000);
+      }
+    });
+
+    $("#btnsubmit").click(function () {
+      localStorage.setItem("toast", "true");
+    });
+  </script>
+
+</body>
+
+</html>
